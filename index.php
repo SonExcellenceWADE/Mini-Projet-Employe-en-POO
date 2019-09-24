@@ -304,12 +304,10 @@ $search=$manager->Recherche($emp);
     <small> <span> <?php if(!empty($erreur['tel'])) echo $erreur['tel']?> </span> </small> <br/> 
         <small> <span> <?php if(!empty($erreur['sizetel'])) echo $erreur['sizetel']?> </span> </small> <br/> 
         <small> <span> <?php if(!empty($erreur['optel'])) echo $erreur['optel']?> </span> </small>
-</div>
-</div>
-<div class="from-group">
-    <input type="submit" value="Ajouter" name="ajouter" class="btn btn-info">
+<input type="submit" value="Ajouter" name="ajouter" class="btn btn-outline-info my-2 my-sm-0n ">
 </div>
 
+</div>
 
 </form>
 
